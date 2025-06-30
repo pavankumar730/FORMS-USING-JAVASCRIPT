@@ -1,0 +1,66 @@
+.a {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#studentForm {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #af754c;
+    border-radius: 10px;
+    background: #f9f0f5;
+}
+
+#studentForm div {
+    margin-bottom: 15px;
+}
+
+#studentForm label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #502c3d;
+}
+
+#studentForm input[type="text"],
+#studentForm input[type="email"],
+#studentForm input[type="file"],
+#studentForm input[type="date"],
+#studentForm input[type="number"],
+#studentForm input[type="number"]
+ {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1.5px solid #af654c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+#studentForm input[type="text"]:focus,
+#studentForm input[type="email"]:focus,
+#studentForm input[type="file"]:focus,
+#studentForm input[type="date"]:focus {
+    border-color: #2eccba;
+    outline: none;
+}
+
+#studentForm button[type="submit"] {
+    background-color: #27ae5d;
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#studentForm button[type="submit"]:hover {
+    background-color: #cc2e9a;
+}
